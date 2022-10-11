@@ -1,0 +1,150 @@
+*, ::after, *,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Teko', sans-serif;
+}
+
+body{
+background-image: linear-gradient(45deg, #b9bbd3 50%, #e5e5f7 50%);
+background-size: 10px 10px;
+    
+}
+
+#agenda-title{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(245, 182, 182);
+    justify-content: center;
+}
+
+#datos-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#lista{
+    background-color:rgb(245, 182, 182) ;
+    letter-spacing: 7px;
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: x-large;
+    list-style: none;
+    width: 90%;
+    height: 15rem;
+    overflow: auto;
+
+}
+
+/*Boton para crear contacto.*/
+#btn-add-contact{
+background-color: rgb(245, 182, 182);
+    border-style: double;
+    padding: 0.3rem;
+    margin: 1rem;
+    transform: scale(1.40);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-family: 'Teko', sans-serif;
+    
+}
+#btn-add-contact:hover{
+    transform: scale(1.55);
+}
+
+
+/* Boton para eliminar contacto */
+
+.delete-Button{
+    background-color: rgb(245, 182, 182);
+    border-radius: 0.5rem;
+    font-family: 'Teko', sans-serif;
+    transform: scale(1.20)
+}
+
+.delete-Button:hover{
+    transform: scale(1.30);
+    transition: all 0.9s ease-in-out;
+
+}
+
+
+/* input style */
+
+.input-datos{
+    width: auto;
+    background: none;
+    color: rgb(41, 65, 65);
+    font-size: 1rem;
+    padding: 0.5rem 0.4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px rgb(91, 91, 163) solid;
+    transform: scale(.90);
+    font-family: 'Teko', sans-serif;
+}
+
+.input-datos:hover{
+    transform: scale(1.10) ;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.material-symbols-sharp{
+    color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width:425px){
+
+    body{ max-width: 425px
+
+    };
+
+
+}
+
+
+
+
+
+
+
+.bronw {
+    color: brown;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.gold{
+    color: gold;
+}
+
+.green{
+    color: rgb(122, 156, 67);
+}
